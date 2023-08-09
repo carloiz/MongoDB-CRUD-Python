@@ -47,7 +47,7 @@ def ADDNEWRECORD():
             collection.insert_one(record)
             print('\t\nStudent: \"', name,'\" Detailed Inserted.')
         elif choice == 2:
-            number = int(input('Enter Number of Employees: '))
+            number = int(input('Enter Number of Students: '))
             l = []
             for i in range(number):
                 name = input("\nName: ")
